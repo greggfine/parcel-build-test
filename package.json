@@ -3,13 +3,17 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "homepage": "https://greggfine.github.io/parcel-build-test",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "deploy": "gh-pages -d dist"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "cssnano": "^4.1.10"
+  },
+  "dependencies": {
+    "gh-pages": "^2.1.1"
   }
 }
